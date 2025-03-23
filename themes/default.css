@@ -1,0 +1,30 @@
+
+quiz-item {
+  display:block;
+}
+
+q-clues {
+  display:block;
+}
+
+q-clues p {
+  margin: 0;
+}
+
+q-instructions {
+  display:block;
+  font-weight: bold;
+}
+
+quiz-item[type=blanks] q-blank > input {
+    width: 134px;
+    font-size: 100%;
+    text-align: center;   
+}
+
+q-clues {
+    text-align:center;
+    background-color:#f2eee4;
+    padding:0.25em; 
+    border:1px solid gray;    
+} 

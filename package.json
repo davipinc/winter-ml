@@ -1,0 +1,10 @@
+{
+  "name": "winter-ml",
+  "version": "1.0.0",
+  "description": "A web markup language for interactives",
+  "main": "item-script.js",
+  "scripts": {
+  },
+  "author": "David Pinching",
+  "license": "ISC"
+}

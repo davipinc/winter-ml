@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive</title>
+  
+</head>
+
+<body>
+
+  <quiz-player>
+    <script src="../scripts/winter-viewer.js"></script>
+  </quiz-player>
+
+  <quiz-style>
+    <link rel="stylesheet" href="../libs/simple.min.css">
+    <link rel="stylesheet" href="../themes/default.css">
+  </quiz-style>
+
+  <quiz-item type="blanks" id="blanks-six">
+
+    <q-outcomes min-score="0" max-score="6"></q-outcomes>
+
+    <q-source>
+      <q-instructions>
+        <p>Listen to the sound clip then fill in the blanks.</p>
+      </q-instructions>
+      
+      <q-audio>
+        <audio controls src="media/semantic-content.mp3"></audio>
+      </q-audio>
+
+      <clues-slot><!-- clues will be shown here --></clues-slot>
+      
+      <ol>
+        <li>Athens is the capital of [Greece].</li>
+        <li>Cairo is the capital of [Egypt].</li>
+        <li>Madrid is the capital of [Spain].</li>
+        <li>Lima is the capital of [Peru].</li>
+        <li>Reykjavík is the capital of [Iceland].</li>
+      </ol>
+    </q-source>
+    
+    <preview-slot><!-- preview will be shown here --></preview-slot>
+
+  </quiz-item>
+
+</body>
+
+</html>
